@@ -66,18 +66,25 @@
   <body>
     <div id="root"></div>
     
-<!-- Botón Flotante de Telegram - Ramón Electrónica -->
+<!-- Botón de Contacto Profesional - Ramón Electrónica -->
 <a href="https://t.me/ramonelectronicabot" 
    target="_blank" 
-   style="position:fixed; width:60px; height:60px; bottom:30px; right:30px; background-color:#0088cc; color:#FFF; border-radius:50%; text-align:center; box-shadow: 0px 4px 10px rgba(0,0,0,0.3); z-index:9999; display: flex; align-items: center; justify-content: center; transition: transform 0.3s ease; text-decoration: none;">
-   <!-- Logo en código puro (SVG) para que nunca se rompa -->
-   <svg width="35" height="35" viewBox="0 0 24 24" fill="none" xmlns="http://w3.org">
+   style="position:fixed; bottom:30px; right:30px; background-color:#2563eb; color:#ffffff; padding: 12px 24px; border-radius: 8px; text-decoration: none; font-family: sans-serif; font-weight: bold; font-size: 16px; box-shadow: 0px 4px 15px rgba(0,0,0,0.5); z-index: 99999; display: flex; align-items: center; gap: 10px; border: 1px solid rgba(255,255,255,0.2); transition: all 0.3s ease;">
+   <span>CONTACTO TÉCNICO</span>
+   <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://w3.org">
       <path d="M20.665 3.717l-17.73 6.837c-1.21.486-1.203 1.161-.222 1.462l4.552 1.42l10.532-6.645c.498-.303.953-.14.579.192l-8.533 7.701l-.332 4.965c.488 0 .703-.223.976-.487l2.344-2.279l4.875 3.597c.898.496 1.543.241 1.767-.832l3.193-15.04c.328-1.314-.502-1.912-1.351-1.54z" fill="white"/>
    </svg>
 </a>
+
 <style>
-   a:hover { transform: scale(1.1); }
+   /* Efecto de brillo al pasar el mouse */
+   a[href*="t.me"]:hover {
+      background-color: #1d4ed8 !important;
+      transform: translateY(-3px);
+      box-shadow: 0px 6px 20px rgba(37, 99, 235, 0.4) !important;
+   }
 </style>
+
 
 
   </body>
